@@ -11,6 +11,9 @@
 # production
 /build
 
+#practice exercises 
+/partc
+
 # misc
 .DS_Store
 .env.local
