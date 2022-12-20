@@ -56,7 +56,7 @@ const App = () => {
   )
   // Get most voted anecdote's index by using reduce function
   const mostVotedAnecdote = points.reduce((iMax, x, i, arr) => x > arr[iMax] ? i : iMax, 0)
-  
+  console.log();
   const voteText = "This anecdote has " + points[selected] +  " votes."
   return (
     <div>
